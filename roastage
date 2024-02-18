@@ -1,0 +1,12 @@
+print("Disclaimer: This program takes your age and tells you about which generation you belong to. It also custom roast you where every roast is tailored to your individual taste(delusions). This program is  intended to offend everyone so buckle up your seat belts (if you are not in a car, go ahaed and sit in one) and let us go. ")
+year = int(input("What is your brth year?"))
+if 1925<year<1946:
+  print("I wonder if you can even operate this device? Seriously though, you are my grandfather's age. And he still thinks he is young, yes. That is the case of every Traditionalist I have come across. ")
+elif 1947<year<1964:
+  print("So you are the generation baby boomers as in the most politically conservative generation. You were a baby when you were born. You should grow up now basically. You decided to never stop being a child. A relic of a age long past the stage of world.")
+elif 1965<year<1981:
+  print("You belong to generation X. I  have not ever heard of you so I guess that explains the remarkable deeds of your generation.I doubt even you have heard of yourself.")
+elif 1982<year<1995:
+  print("So you are the Millenial. So you still in 2024 belive you are into your early twenties. Maybe you thought growing up that you will be a millianre and a dot.com millionare on top of that. Boom! The bubble burst")
+elif 1996<year<2015:
+  print("So you are the most chronically depressed and binged generation. Yes, you probably already know what generation you belong to. Gen Z. You think you are going to change the world. Yes, after you have finished imagining yourself as Tony Stark. Wake up kiddo")
